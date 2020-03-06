@@ -58,8 +58,8 @@ button{
 
 .left-side .picture{
     background-color: cornflowerblue;
-    width: 300px;
-    height: 300px;
+    width: 30%;
+    height: 30%;
     display: flex;
     justify-content: center;
 }
@@ -117,3 +117,20 @@ input {
     margin-top: 10px;
 }
 
+@media screen and (max-width: 700px) {
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+    .container{
+        display: none;
+        display: flex;
+        flex-direction: column;
+    }
+    .left-side{
+        width: 100%;
+    }
+    .right-side{
+        width: 100%;
+    }
+  }
